@@ -1,0 +1,2 @@
+1. npm start - start the react app on node server
+             - to be executed at root of the project

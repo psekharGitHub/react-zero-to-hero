@@ -1,0 +1,58 @@
+What is ReactJS
+------------------------------
+Open source Javascript library for building user interface
+
+Why to learn ReactJS ?
+--------------------------
+- create and maintained by Facebook
+- huge community
+
+Component Based Development
+------------------------------
+Component Based Development means designing our software applications
+by building loosely coupled independent components
+
+What is Component ?
+----------------------
+A comoponent is a well-defined and independent piece of our app's user
+interface
+ex. buttons, header, footer, navigation, table, pagination
+
+
+Why do we need components ?
+-----------------------------
+ - because ReactJS updates DOM(Document Object Model) periodically
+ - built off of the concept of Ajax Requests, in which calls are 
+   made directly from client-side, allowing for the DOM to be
+   priodically updated without the need of 'page refresh'
+
+ - because components are independent, one component can refresh without
+   affecting other components or the UI as a whole
+
+ - DOM - whatever you see in the browser i.e., whatever present inside
+         the <body> </body>
+   
+   Types of components
+   --------------------
+   1. Functional components - create components using function
+   2. Class components - create components using class
+
+   React JS Basics
+   ====================
+   props - we use props to allow components to talk to eachother
+   
+   state - ReactJS updates UI based on the application state
+         - this is actually stored as a property of Reach Class Component
+
+   Packages
+   -------------------------
+   By default react has 4 Packages
+    - react
+    - react-dom
+    - react-scripts
+    - web-vitals
+
+    Starting file
+    --------------------
+    - index.js is the starting file
+    - but actually, what you type in App.js is what appers on the page
