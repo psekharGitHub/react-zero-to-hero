@@ -7,7 +7,7 @@ class Test extends Component {
     render() {
         return (
             <div>
-                <h1> This class component is created using RCCE</h1>
+                <h1>This Class Component created using RCE Command</h1>        
             </div>
         )
     }

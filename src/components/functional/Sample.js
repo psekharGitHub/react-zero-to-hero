@@ -4,12 +4,12 @@
 */
 import React from 'react'
 
-export default function Sample() {
+function Sample() {
     return (
         <div>
-            <h1> This is a functional component created using RFC </h1>
+            <h1>This Functional Component created using RFCE Command</h1> 
         </div>
     )
 }
 
-
+export default Sample
